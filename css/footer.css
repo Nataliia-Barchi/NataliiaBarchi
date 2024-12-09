@@ -1,0 +1,46 @@
+footer {
+    background-color: #2c3e50;
+    background-color: #2c3e50; /* Темний фон */
+    color: #ffffff;      /* Світлий текст */
+    text-align: center;                  /* Центрування тексту */
+    padding: 20px 0;                     /* Відступи зверху та знизу */
+}
+
+
+
+footer.container {
+    min-height: auto;
+}
+
+footer.container .inside {
+    padding: var(--mob-padding);
+}
+
+.social-icons {
+    display: flex;                  /* Іконки у рядок */
+    justify-content: center;        /* Центрування */
+    gap: 15px;                      /* Проміжок між іконками */
+    margin-top: 10px;               /* Відступ зверху */
+}
+    
+
+
+.social-icons a {display: inline-block;
+    width: 50px;                    /* Розмір кнопки */
+    height: 50px;
+    background-color: var(--bg-color-3); /* Фон кнопки */
+    border-radius: 50%;             /* Кругла форма */
+    display: flex;
+    justify-content: center;        /* Центрування іконки по горизонталі */
+    align-items: center;            /* Центрування іконки по вертикалі */
+    color: var(--text-color-light); /* Колір іконки */
+    font-size: 24px;                /* Розмір іконки */
+    text-decoration: none;          /* Без підкреслення */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: var(--primary-color); /* Зміна кольору при наведенні */
+    transform: scale(1.1);                  /* Ефект збільшення */
+}
+    
